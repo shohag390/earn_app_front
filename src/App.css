@@ -1,0 +1,42 @@
+.box_style {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 4px gray;
+  transition: 0.3s;
+}
+
+.box_style:hover {
+  border: 1px solid gray;
+  box-shadow: 6px 6px 3px gray;
+}
+
+.box_style_two {
+  box-shadow: 0px 0px 5px gray;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.input_style {
+  background: #b2baf429;
+  box-shadow: 0 8px 32px 0 #1f268747;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid #ffffff20;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffd4b1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #581c87;
+}
